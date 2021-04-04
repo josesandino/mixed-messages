@@ -10,10 +10,10 @@ Este scrip lanzara un mensaje o una frase comun, aleatoria, cada vez que el usua
     - [] Contenido principal (Contenedor principal > contenedor medida > 2 contenedores(mensaje/boton))
     - [] Footer
 - [] Hoja de estilos CSS.
-    - [] Guia de estilo (colores/tipografia)
+    - [x] Guia de estilo (colores/tipografia)
     - [] Integracion CSS/HTML
 ## Script 
-- [] Script principal en JavaScrip.
+- [] Script principal en JavaScript.
     - [] 
     - [] 
     - [] Hacer test en node.js
