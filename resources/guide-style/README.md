@@ -1,4 +1,4 @@
-# starting
+# Guide style
 Es una guia para ayudarte con la creacion de paginas web con HTML & CSS. 
 
 Sera la base antes de empezar a programar, le puedes añadir diferentes estilos, fuentes, colores, y scripts con los que piensas trabajar.
