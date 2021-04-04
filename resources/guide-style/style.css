@@ -1,0 +1,109 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+*/
+html {
+    height: 100%;
+    display: block;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin: 0 10%;
+    /*margin-left: 80px;
+    margin-right: 80px;*/
+}
+.container {
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+/* Containers de colores */
+
+.color-container {
+    width: 100%;
+}
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    color: #E6E8E6;
+}
+.rich-black {
+    background-color: #080708;
+}
+.blue-crayola {
+    background-color: #3772FF
+}
+.rose-madder {
+    background-color: #DF2935;
+}
+.sunglow {
+    color: #080708;
+    background-color: #FDCA40;
+}
+/* Containers de fuentes  */
+
+.font-container {
+    width: 100%;
+}
+.font-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+.font-label {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.noto-sans {
+    font-family:  "Noto Sans JP",sans-serif;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.jetBrains-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.regular  {
+    font-style: normal;
+}
+.bold {
+    font-weight: 700;
+}
+.bold .lato {
+    font-weight: 900;
+}
+.italic {
+    font-style: italic;
+}
+
+/* Containers de texto */
+ul {
+    line-height: 1.6;
+}
+.text-panel h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+.text-panel h2 {
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.text-panel p {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
