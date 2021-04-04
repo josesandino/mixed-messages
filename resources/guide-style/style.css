@@ -13,10 +13,11 @@ html {
 }
 body {
     margin: 0 10%;
-    /*margin-left: 80px;
-    margin-right: 80px;*/
+
 }
 .container {
+    display: flex;
+    flex-direction: column;
     margin: 10px auto;
     border: 2px solid black;
     padding: 15px;
@@ -38,19 +39,27 @@ body {
 .rich-black {
     background-color: #080708;
 }
-.blue-crayola {
-    background-color: #3772FF
+#emerald {
+    background-color: #00916E;
 }
-.rose-madder {
-    background-color: #DF2935;
-}
-.sunglow {
+#linen {
     color: #080708;
-    background-color: #FDCA40;
+    background-color: #FEEFE5;
+}
+#yellow {
+    color: #080708;
+    background-color: #FFCF00;
+}
+#orange {
+    background-color: #EE6123;
+}
+#red {
+    background-color: #FA003F;
 }
 /* Containers de fuentes  */
 
 .font-container {
+    display: flex;
     width: 100%;
 }
 .font-panel {
